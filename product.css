@@ -1,0 +1,72 @@
+/* Product Page################################################################## */
+.product{
+    margin-bottom: 600px;
+}
+.product .contents{
+    display: grid;
+    gap: 70px;
+}
+.head h1{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 80px;
+}
+.inner-content .piccccc{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.inner-content .piccccc img{
+   
+}
+.inner-content .cc{
+    padding-top: 30px;
+    margin: 10px 20px 10px;
+
+}
+.inner-content .cc h2{
+    font-size: 25px;
+    text-align: center;
+}
+.inner-content .cc p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* responsive########################################################## */
+@media only screen and (min-width: 768px){
+    .head h1 {
+        font-size: 30px;
+    }
+    .product .contents .inner-content {
+        display: flex;
+        margin: 10px 20px 10px;
+    }
+    .inner-content .cc h2 {
+        font-size: 30px;
+    }
+    .inner-content .cc p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    /* PRODUCT PAGE#####################3#### */
+.head h1 {
+    font-size: 30px;
+}
+.product .contents .inner-content {
+    display: flex;
+    margin: 10px 20px 10px;
+}
+.inner-content .cc h2 {
+    font-size: 20px;
+}
+.inner-content .cc p {
+    font-size: 18px;
+    line-height: 40px;
+}
+}
+
